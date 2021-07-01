@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Phnedialog</title>
+        <meta name="viewport" content="width=device-width">
+        <link rel="icon" href="phne ico.ico">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/navbar-theme.css">
+        <link rel="stylesheet" href="css/bgVideo.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/youtube.css">
+        <link rel="stylesheet" href="css/rodape.css">
+
+        
+    </head>
+    <body>
+        <video autoplay muted loop id="bgVideo" class="bgVideo-dialog bg" poster="dialog.jpg">
+            <source src="dialog-bg.mp4" type="video/mp4" >
+        </video>
+        <video autoplay muted loop id="bgVideo" class="bgVideo-phne not-bg" poster="phne.jpg">
+            <source src="phne-bg.mp4" type="video/mp4">
+        </video>
+        
+        <div class="website">
+            <div class="container">
+                <header class="d-flex justify-content-center py-3">
+                    <ul class="navbar navbar-dark navbar-custom">
+                        <li class="nav-item active"><a class="nav-link" href="#" id="phne">phne</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#" id="dialog">dialog</a></li>
+                    </ul>
+                </header>
+            </div>
+
+            <main class="container mb-4">
+                <div class="jumbotron text-align-center text-light justify-content-center">
+                    <h1>la fina era prima</h1>
+                    <br>
+                    <div class="video-display"></div>
+                    <iframe id="phne-display" class="container-yt" width="1024" height="576" src="https://www.youtube.com/embed/+lastest?list=PLe5KxRNiK9uldjxhZ0_AHLrDzInfy0H89" title="Phne" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe id="dialog-display" class="container-yt container-dialog" width="1024" height="576" src="https://www.youtube.com/embed/+lastest?list=PLe5KxRNiK9ulqI1CHS3xT167X34Ao6Kkh" title="Dialog" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    
+
+                </div>
+            </main>
+
+            <footer class="rodape">
+                <img src="" alt="">
+                <p>&copy; Phnedialog 2021</p>
+            </footer>
+        </div>
+        <script src="js/jquery.js"></script>
+        <script src="js/phnedialog.js"></script>
+    </body>
+</html>
