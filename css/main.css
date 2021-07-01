@@ -1,0 +1,13 @@
+.text-align-center{
+    text-align: center;
+}
+.jumbotron{
+    background-color: #0000004d;
+    color: #0000004d;
+    border-radius: 0px;
+}
+
+
+h1{
+    transition: color 1s;
+}

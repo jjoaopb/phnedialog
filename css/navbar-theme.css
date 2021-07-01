@@ -1,0 +1,30 @@
+/* change the background color */
+a{
+    color: rgb(68, 68, 68);
+    font-size: 1.4rem;
+}
+.navbar-custom {
+    background-color: #0000003d;
+    border-radius: 8px;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255,255,255,.8);
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+.navbar{
+    
+    border-bottom: 2px solid white;
+    border-radius: 0px;
+}

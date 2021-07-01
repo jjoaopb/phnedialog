@@ -1,0 +1,29 @@
+#bgVideo{
+    display: flex;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    
+
+    
+}
+.website{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+}
+.bg{
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 2s, opacity 2s linear;
+    
+}
+.not-bg{
+    opacity: 1;
+    visibility:visible;
+    transition: opacity 2s linear;
+}
