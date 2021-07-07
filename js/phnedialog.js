@@ -40,3 +40,5 @@ botaoP = document.getElementById('phne');
 botaoP.addEventListener('click',navfuncRev);
 
 
+navfunc();
+
