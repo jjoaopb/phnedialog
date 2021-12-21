@@ -4,15 +4,23 @@
     color: white;
     text-shadow: 1px 1px #b15b8c;
 }
+
 .nav-link:hover{
     color:#F27DBF;
-    
 }
 
 .nav-link{
+    display: inline;
+    padding: 0.1rem;
+    color: #686868;
+}
+
+.nav-link-yt,.nav-link-ig,.nav-link-sc{
+    color: #fff;
     display:inline;
     padding: 0;
 }
+
 .fa-soundcloud{
     
     height: 16px;
