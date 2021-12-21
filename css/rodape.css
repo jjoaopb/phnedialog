@@ -4,3 +4,17 @@
     color: white;
     text-shadow: 1px 1px #b15b8c;
 }
+.nav-link:hover{
+    color:#F27DBF;
+    
+}
+
+.nav-link{
+    display:inline;
+    padding: 0;
+}
+.fa-soundcloud{
+    
+    height: 16px;
+    width: 16px;
+}
